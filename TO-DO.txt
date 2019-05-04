@@ -9,6 +9,8 @@ Things to get done in the next few days:
         --> https://github.com/TheyCallMeJQ/P1O4N9G8
         In the above link, you should find a way to clone the repository somewhere to your computer. From there, create a new branch in the repository (I'm not sure how you can go about doing this, I have a desktop application that has a button that makes my life easy, you may need to do some research).
     
+        How to add to a GitHub repository: You make your changes (TO YOUR BRANCH), and then you commit those changes. After, you create a pull request, fill it out with some helpful comments, and then finalize the pull request. Then you say "Merge [...]", and "Confirm merge"
+    
     Everyone:
         1. make the game board
         2. player(s) movement
