@@ -1,0 +1,26 @@
+Friday May 3 2019
+- Created Github Repo and respective branch JQ
+- Decided on the following:
+    - Focus of the first (test) project; a game of pong, first implemented for two players on a single system. Eventually, to be made network-accessible, which is to say people should be able to play together over connection (if possible). - - Further down the line, maybe add a twist to the classic Pong game. Maybe after a certain number of points, there's a dubstep drop, the stage starts to spin, colors change, this sort of thing. Just something to shake things up from the classic Pong format. Doesn't necessarily need to be an esthetic game-changer, could be conceptual too, somehow. We'll brain-storm.
+    
+- Creation of the schedule:
+Things to get done in the next few days: 
+    i. Jon: Clone the GitHub repo and create a new branch
+        --> https://github.com/TheyCallMeJQ/P1O4N9G8
+        In the above link, you should find a way to clone the repository somewhere to your computer. From there, create a new branch in the repository (I'm not sure how you can go about doing this, I have a desktop application that has a button that makes my life easy, you may need to do some research).
+    
+    Everyone:
+        1. make the game board
+        2. player(s) movement
+            vertical-only, up and down, delimited by the upper and lower wall
+            For this we'll start with two players on the same system, for now (so we can say WASD will be player 1 and Up-left-down-right will be player 2)
+        3. implementation of scoring 
+            if the ball is shot and passes a certain boundary, let it count as a point, and let us know that the ball needs to be destroyed and respawned (alternatively, we could simply move it)
+        4. the ball
+            need to make it bounce if it touches the upper or lower wall, conserving its horizontal momentum.
+            spawn on a random player's side and be shot by them, count as a point after passing a certain boundary
+        5. esthetics
+            scoring letters, sounds made when the ball hits a wall or the player, look and feel of the game board
+            
+So look, we can get items i), 1, and 2 done this weekend of May 3rd. Let's start there.            
+
